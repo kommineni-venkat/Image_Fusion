@@ -31,7 +31,7 @@ def index():
 
 @app.route('/upload', methods=['POST'])
 def upload():
-    # Check if the post request has the file part
+    
     if 'file1' not in request.files or 'file2' not in request.files:
         return redirect(request.url)
 

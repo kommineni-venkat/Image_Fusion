@@ -78,14 +78,14 @@ a {
 
 .form {
     padding: 20px;
-    display: flex; /* Add this line */
-    justify-content: space-between; /* Adjust spacing between elements */
+    display: flex; 
+    justify-content: space-between; 
 }
 
-/* Remove padding-left from .container-form and .container-form1 */
+
 .container-form,
 .container-form1 {
-    margin-right: 20px; /* Adjust margin to create space between elements */
+    margin-right: 20px; 
     color:#005F79;
 }
 
