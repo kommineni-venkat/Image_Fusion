@@ -1,0 +1,20 @@
+<!-- templates/result.html -->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Image Fusion Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-heading">IMAGE FUSION RESULT</h1>
+        <div class="download-button">
+            <a href="{{ url_for('download') }}" download="fused_image.jpg">
+                <button>Download Fused Image</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
